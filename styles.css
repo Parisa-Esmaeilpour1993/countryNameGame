@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 145, 255);
+}
+
+.container{
+    width: 100%;
+    max-width: 560px;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+#user-input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#custom-keyboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.key{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.input-key{
+    background-color: blue;
+    color: white;
+}
+
+.selected-key{
+    background-color: rgba(0, 0, 255, 0.357);
+}
+
+.active-key{
+    background-color: white;
+    color: blue;
+}
+
+.notActive-key{
+    background-color: white;
+    color: blue;
+    opacity: 30%;
+}
+
+.word-box {
+    display:flex
+}
